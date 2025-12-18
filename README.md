@@ -10,104 +10,103 @@ Some devices (ISP router and cloud resources) were intentionally inaccessible to
 
 Network Overview
 
-    Two routers (R1 and ISP router R2)
+- Two routers (R1 and ISP router R2)
 
-    Multiple LANs connected through R1
+- Multiple LANs connected through R1
 
-    Web server and DNS servers located on a remote network
+- Web server and DNS servers located on a remote network
 
-    End devices across different subnets
+- End devices across different subnets
 
 The network uses:
 
-    Static IP addressing
+- Static IP addressing
 
-    Default gateways
+- Default gateways
 
-    DNS name resolution
+- DNS name resolution
 
-    Serial WAN connection between routers
+- Serial WAN connection between routers
 
 Objectives Completed
 
-    Verified and corrected IP addresses, subnet masks, and default gateways
+- Verified and corrected IP addresses, subnet masks, and default gateways
 
-    Tested connectivity using ping
+- Tested connectivity using ping
 
-    Tested web access using both DNS name and IP address
+- Tested web access using both DNS name and IP address
 
-    Identified DNS-related issues affecting web access
+- Identified DNS-related issues affecting web access
 
-    Documented unresolved issues that required escalation
+- Documented unresolved issues that required escalation
 
-    Verified end-to-end connectivity for all PCs
+- Verified end-to-end connectivity for all PCs
 
 Troubleshooting Steps Performed
+- Used ipconfig to validate host configurations
 
-    Used ipconfig to validate host configurations
+- Tested connectivity to:
 
-    Tested connectivity to:
+ - Default gateways
 
-      Default gateways
+ - Other local PCs
 
-      Other local PCs
+ - Remote PCs
 
-      Remote PCs
+ - Web server by IP address
 
-      Web server by IP address
+- Compared results across multiple end devices
 
-    Compared results across multiple end devices
+- Isolated whether issues were caused by:
 
-    Isolated whether issues were caused by:
+  - Incorrect IP configuration
 
-      Incorrect IP configuration
+  - Routing problems
 
-      Routing problems
+  - DNS resolution failures
 
-      DNS resolution failures
-
-    Confirmed which problems could and could not be fixed with local access
+- Confirmed which problems could and could not be fixed with local access
 
 Key Issues Identified
 
-    Some PCs had incorrect or missing network configuration
+- Some PCs had incorrect or missing network configuration
 
-    Web access by IP address worked while DNS name resolution failed
+- Web access by IP address worked while DNS name resolution failed
 
-    DNS2 could not be fully utilized due to limited access to ISP/cloud devices
+- DNS2 could not be fully utilized due to limited access to ISP/cloud devices
 
-    Certain problems required escalation because core infrastructure was outside user control
+- Certain problems required escalation because core infrastructure was outside user control
 
 Concepts Demonstrated
 
-    Network troubleshooting methodology
+- Network troubleshooting methodology
 
-    IP addressing and subnetting
+- IP addressing and subnetting
 
-    Default gateway configuration
+- Default gateway configuration
 
-    DNS resolution vs direct IP access
+- DNS resolution vs direct IP access
 
-    Layered troubleshooting (host → gateway → remote network)
+- Layered troubleshooting (host → gateway → remote network)
 
-    Understanding of real-world access limitations
+- Understanding of real-world access limitations
 
-    Clear technical documentation
+- Clear technical documentation
 
 Tools Used
 
-    Cisco Packet Tracer
+- Cisco Packet Tracer
 
-    Command Prompt (ipconfig, ping)
+- Command Prompt (ipconfig, ping)
 
-    Web browser testing
+- Web browser testing
 
 How to Open the Project
 
-    Install Cisco Packet Tracer
+- Install Cisco Packet Tracer
 
-    Download the .pka file from this repository
+- Download the .pka file from this repository
 
-    Open it in Packet Tracer
+- Open it in Packet Tracer
 
-    Follow the instructions inside the activity
+- Follow the instructions inside the activity
